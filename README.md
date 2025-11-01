@@ -1,55 +1,38 @@
-# mPython Board V3
+<div align="center">
+  <!--
+  <img src="" width="100px"/>
+  -->
+  <h1 style="font-size: 28px; margin: 10px 0;">HandPyre</h1>
+  <p>百川聚焰，握新如初<br/>Fire at Command, Reborn in Hand</p>
+</div>
 
-欢迎您，使用掌控板3.0！
-
-掌控板是创客教育专家委员会、猫友汇、广大一线老师共同提出需求并与创客教育行业优秀企业代表共同参与研发的教具、学具，是一块为教育而生的开源硬件，也是一个公益项目。
-
-mPython掌控板是一块MicroPython微控制器板，它集成ESP32高性能双核芯片，使用当下最流行的Python编程语言，以便您轻松地将代码从桌面传输到微控制器或嵌入式系统。
-
-掌控板3.0是一块内置MicroPython解释器的微控制器板,是掌控板的升级产品，它集成ESP32-S3高性能双核芯片，使用当下最流行的Python编程语言，以便您轻松地将代码从电脑传输到掌控板中，从而体验程序创作的无穷乐趣。
-
-
-![](https://mpython-esp32s3-doc.readthedocs.io/zh-cn/latest/_images/mpython_pro.png)  
-
-# 编程软件
-
-目前支持掌控板的编程软件有:
-
-<table >
-<tr style="height: 100px;">
-<td style="width: 100px; height: 100px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://wiki.labplus.cn/images/2/2d/MPythonX.png" width="60" height="60" /></td>
-<td style="width: 247px; height: 106px;">官方推荐编程软件,mPython是一款专用于掌控板的编程教育软件，给掌控板“注入”你想实现的功能，
-它可以让你从图形化编程入手，进而轻松掌握Python编程语言。</td>
-</tr>
-<tr style="height: 100px;">
-<td style="width: 100px; height: 100px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://www.labplus.cn/2b1507b610dd5820e815a646dd5535fb.png" width="60" height="60" /></td>
-<td style="width: 247px; height: 109px;">由Labplus盛思在MIT Scratch 3.0基础上研发的一款专门针对小学四到六年级学生学习编程的图形化软件。</br>相比原生Scratch 3.0，Labplus 3扩展了对掌控板的支持。在Labplus 3上应用掌控板时，有互动编程与离线编程两种模式。</br>软件强调易用性，只保留了最常用的功能，去掉了复杂的部分，便于初学者入门使用。软件有Windows和MacOS两个离线安装包，另外，还支持盛思魔盒与初级实验箱。</td>
-</tr>
-<tr style="height: 100px;">
-<td style="width: 100px; height: 100px;"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://download3.dfrobot.com.cn/website/image/logo.png" width="100" height="50" /></td>
-<td style="width: 247px; height: 109px;">Mind+是一款拥有自主知识产权的国产青少年编程软件，集成各种主流主控板及上百种开源硬件，</br>支持人工智能（AI）与物联网（IoT）功能，既可以拖动图形化积木编程，还可以使用Python/C/C++等高级编程语言，让大家轻松体验创造的乐趣。</td>
-</tr>
-</table>
-
-# 掌控板社区
-
-掌控板论坛: https://www.labplus.cn/forum
+<p align="center">
+  <a href="">Downlod Build Files</a>
+  ·
+  <a href="">Develop Docs</a>
+  ·
+  <a href="">Report Bug</a>
+  ·
+  <a href="">Request Feature</a>
+  ·
+  <a href="">FAQ</a>
+  ·
+  <a href="">Ask Question</a>
+</p>
 
 
-# 相关链接
+<p align="center">感谢热爱掌控板的每一位小伙伴，这是本项目诞生的原因与发展的动力</p>
 
-GitHub: https://github.com/labplus-cn/mpython_esp32s3         <br/>
-掌控板官网: https://www.mpython.cn                      <br/>
-掌控板3.0编程参考手册: https://mpython-esp32s3-doc.readthedocs.io/zh-cn/latest/          <br/>
-掌控板3.0编程软件(mPython)手册: https://mpythonsoftware.readthedocs.io/         <br/>
+<br/>
 
-# 许可信息
-![](./oshw_mpython.png)
-![](./oshw_mpython_v3.svg)
+> [!IMPORTANT]
+> 本项目将在未来很长一段时间内保持早期阶段，在我们发布正式 Release 前，我们不建议你出于任何目的将该项目的成果用于生产环境。
 
-掌控板是一个[OSHWA](https://certification.oshwa.org/cn000020.html) 认证的开源硬件项目,代码和设计都是开源。但软件须在[GPL-3](http://www.gnu.org/licenses/gpl.html)许可下使用,硬件在CERN许可下使用,文档在CC0许可下使用。
+> [!IMPORTANT]
+> 本项目目前仅适用于掌控板V3。本项目基于 [盛思官方固件](https://github.com/labplus-cn/mpython_esp32s3) 二次开发。由于官方开源态度消极，截止到 2025.11.1，开源内容相较于实际发布的编译文件已严重滞后，且后续跟进开源希望渺茫，我们决定基于目前仅有的开源内容进行二次开发。
 
+> [!IMPORTANT]
+> 我们（FlowEcho）是一支社区力量，参与开发的成员均为学生。我们出于爱好完成这个项目，无论何时我们都无法保证该项目的完整性和稳定性，使用前请确保你有发现问题和解决问题的基本能力。
 
-# 联系我们
-
-如果您对文档或掌控板3.0的使用有任何建议或疑问，请在Github上创建一个问题，以便与他人共享答案和解决方案。
+> [!IMPORTANT]
+> 截止本项目提交初始 Commit 时，官方固件中对于其的许可证描述含糊不清。在其 README 文件中表述为“软件须在GPL-3许可下使用”，但其仓库中的 LICENSE 为 MicroPython 的 MIT LICENSE。不论官方（盛思）在后续如何解释，本项目将继续沿用 MicroPython 的 MIT LICENSE，README 中描述对本项目无效。
