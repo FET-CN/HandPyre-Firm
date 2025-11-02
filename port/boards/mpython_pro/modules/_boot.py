@@ -9,7 +9,7 @@ from machine import Pin
 
 Pin(12, Pin.OUT, value=0)
 
-print("boot...")
+print("HRE: boot...")
 
 try:
     if bdev:
@@ -17,18 +17,28 @@ try:
 except OSError:
     import inisetup
     vfs = inisetup.setup()
-    
-# 硬件复位标志
-for count in range(3):
+
+print("    __  ______  ______")
+print("   / / / / __ \\/ ____/")
+print("  / /_/ / /_/ / __/   ")
+print(" / __  / _, _/ /___   ")
+print("/_/ /_/_/ |_/_____/   ")
+print("                      ")
+print("Fire at Command, Reborn in Hand")
+print("")
+
+for i in range(3):
     print("=$%#=")
-    time.sleep_ms(50)
+
+print("")
 
 # mac地址
 # mac地址
 mac = '$#mac:{}#$'.format(ubinascii.hexlify(machine.unique_id()).decode().upper())
 print(mac)
 
-    
+print("")
+
 # 上电后立即关闭rgb,防止随机灯亮问题
 _rgb = NeoPixel(Pin(8, Pin.OUT), 4, 3, 1,0.1)
 _rgb.write()
