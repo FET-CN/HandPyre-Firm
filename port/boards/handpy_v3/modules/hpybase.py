@@ -82,12 +82,12 @@ class Touch(TouchPad):
     
 
 #touchpads
-touchpad_p = touchPad_P = Touch(Pin(27))#Pin.P23
-touchpad_y = touchPad_Y = Touch(Pin(14))#Pin.P24
-touchpad_t = touchPad_T = Touch(Pin(12))#Pin.P25
-touchpad_h = touchPad_H = Touch(Pin(13))#Pin.P26
-touchpad_o = touchPad_O = Touch(Pin(15))#Pin.P27
-touchpad_n = touchPad_N = Touch(Pin(4)) #Pin.P28
+touchpad_p = touchPad_P = Touch(Pin(9))
+touchpad_y = touchPad_Y = Touch(Pin(10))
+touchpad_t = touchPad_T = Touch(Pin(11))
+touchpad_h = touchPad_H = Touch(Pin(12))
+touchpad_o = touchPad_O = Touch(Pin(13))
+touchpad_n = touchPad_N = Touch(Pin(14))
 
 #from mpython.py，有改动，新增可返回弧度制的
 class MOTION(object):
