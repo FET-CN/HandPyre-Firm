@@ -87,7 +87,7 @@ add_custom_target(
     COMMAND_EXPAND_LISTS
     )
 
-# if(MPYTHON_PRO_BOARD OR LABPLUS_LEDONG_V2_BOARD)
+# if(HANDPY_V3_BOARD OR LABPLUS_LEDONG_V2_BOARD)
     set(USER_C_MODULES ${CMAKE_CURRENT_LIST_DIR}/usercmodule/micropython.cmake)
 # endif()
 

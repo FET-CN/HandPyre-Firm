@@ -7,9 +7,9 @@ set(SDKCONFIG_DEFAULTS
     ${SDKCONFIG_IDF_VERSION_SPECIFIC}
     boards/sdkconfig.ble 
     boards/sdkconfig.240mhz
-    boards/mpython_pro/sdkconfig.spiram 
-    boards/mpython_pro/sdkconfig.board
-    # boards/mpython_pro/sdkconfig.usb
+    boards/handpy_v3/sdkconfig.spiram 
+    boards/handpy_v3/sdkconfig.board
+    # boards/handpy_v3/sdkconfig.usb
 )
 
 if(NOT MPY_PORT_DIR)
@@ -66,6 +66,6 @@ set(MICROPY_SOURCE_BOARD_DIR
     ${MPY_PORT_DIR}/boards
 )
 
-set(MPYTHON_PRO_BOARD ON)
+set(HANDPY_V3_BOARD ON)
 
 set(MICROPY_FROZEN_MANIFEST ${MICROPY_BOARD_DIR}/manifest.py)
