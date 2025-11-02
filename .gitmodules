@@ -14,5 +14,5 @@
 	path = port/usercmodule/lv_binding_micropython/lvgl
 	url = https://github.com/fet-cn/lvgl.git
 [submodule "port/usercmodule/lv_binding_micropython/lvgl/pycparser"]
-	path = port/usercmodule/lv_binding_micropython/lvgl/pycparser
+	path = port/usercmodule/lv_binding_micropython/pycparser
 	url = https://github.com/eliben/pycparser.git
