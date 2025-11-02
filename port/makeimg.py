@@ -94,8 +94,8 @@ arg_board_name = sys.argv[1]
 git_tag = get_version_info_from_git("../")
 git_hash = get_hash_from_git("../")
 build_date = datetime.date.today().strftime("%Y-%m-%d")
-bin_name = "{}-{}-{}_{}.bin".format(arg_board_name, git_tag, git_hash, build_date)
-uf2_name = "{}-{}-{}_{}.uf2".format(arg_board_name, git_tag, git_hash, build_date)
+bin_name = "{}-{}-{}-{}_{}.bin".format("handpyre", arg_board_name, git_tag, git_hash, build_date)
+uf2_name = "{}-{}-{}-{}_{}.uf2".format("handpyre", arg_board_name, git_tag, git_hash, build_date)
 print(bin_name)
 
 arg_sdkconfig = "sdkconfig"
