@@ -9,6 +9,7 @@ import _thread
 import math
 import sys
 import gc
+import SourceHansSans
 # ST7789命令定义 / ST7789 COMMAND DEFINITION
 ST7789_NOP = 0x00
 ST7789_SWRESET = 0x01
