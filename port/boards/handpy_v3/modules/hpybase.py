@@ -10,6 +10,8 @@ from esp32 import NVS
 rgb = NeoPixel(Pin(17, Pin.OUT), 3, 3, 1, brightness=1)
 rgb.write()
 
+i2c = I2C(0, scl=Pin(43), sda=Pin(44), freq=400000)
+
 # light sensor LTR-308ALS 
 if 83 in i2c.scan():    
     light = LTR_308ALS(i2c)
