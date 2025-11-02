@@ -4,7 +4,7 @@ from neopixel import NeoPixel
 from micropython import schedule,const
 import micropython
 import ustruct,math,time
-import NVS
+from esp32 import NVS
 
 # 3 rgb leds
 rgb = NeoPixel(Pin(17, Pin.OUT), 3, 3, 1, brightness=1)
